@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "sp-mint-choco",
+      "name": "민트초코 칩 점토",
+      "sub": "Special · Mint Chocolate Chip",
+      "kind": "putty",
+      "shell": "#7fd3c0",
+      "core": "#d9f3ea",
+      "speckle": "#3b2117",
+      "transmission": 0.05,
+      "roughness": 0.45,
+      "matte": 0.6,
+      "thickness": 0.045,
+      "drizzle": "#4a2a1d",
+      "startAt": "2026-11-25T00:00:00+09:00",
+      "endAt": "2026-12-09T00:00:00+09:00",
+      "card": {
+        "shell": "민트 무광 왁스 + 초코 드리즐",
+        "core": "민트 점토 + 초코 칩 · 눌린 자국이 남음",
+        "crisp": 4
+      }
+    },
+    {
+      "id": "sp-winter-berry",
+      "name": "겨울 베리 참 슬라임",
+      "sub": "Special · Winter Berry Charm",
+      "kind": "slime",
+      "slime": "glitter",
+      "seeThru": 0.55,
+      "shell": "#c8324a",
+      "core": "#f6f1ff",
+      "transmission": 0.45,
+      "roughness": 0.15,
+      "thickness": 0.026,
+      "glitter": [
+        "#ffffff",
+        "#d9ecff",
+        "#ffd6e0"
+      ],
+      "charms": [
+        "#ff5c7a",
+        "#ffffff",
+        "#fff4dc",
+        "#8fd16a"
+      ],
+      "tune": {
+        "gravity": 3.6,
+        "rise": 5.5,
+        "engulf": 0.3
+      },
+      "card": {
+        "shell": "루비빛 유광 파라핀 · 속이 비쳐요",
+        "core": "눈꽃 글리터 슬라임 속 하트·별·진주 참",
+        "crisp": 3
+      }
+    },
+    {
+      "id": "sp-yuzu",
+      "name": "말랑 유자",
+      "sub": "Special · Goheung Yuzu",
+      "kind": "bouncy",
+      "shell": "#f5c518",
+      "core": "#fff3c4",
+      "transmission": 0.35,
+      "roughness": 0.35,
+      "matte": 0.3,
+      "powder": 0.15,
+      "thickness": 0.028,
+      "stem": "#6f8a3a",
+      "card": {
+        "shell": "유자색 반무광 왁스 · 꼭지 하나",
+        "core": "말랑이 · 탱탱하게 튀어 오름",
+        "crisp": 4
+      }
+    }
+  ],
+  "updatedAt": "2026-11-25"
+}
