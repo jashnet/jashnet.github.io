@@ -1,80 +1,150 @@
 {
   "schemaVersion": 1,
+  "updatedAt": "2026-11-25",
   "items": [
     {
-      "id": "sp-mint-choco",
-      "name": "민트초코 칩 점토",
-      "sub": "Special · Mint Chocolate Chip",
-      "kind": "putty",
-      "shell": "#7fd3c0",
-      "core": "#d9f3ea",
-      "speckle": "#3b2117",
-      "transmission": 0.05,
-      "roughness": 0.45,
-      "matte": 0.6,
-      "thickness": 0.045,
-      "drizzle": "#4a2a1d",
-      "startAt": "2026-11-25T00:00:00+09:00",
-      "endAt": "2026-12-09T00:00:00+09:00",
+      "id": "sp-xmas-bauble-red",
+      "name": "레드 오너먼트",
+      "sub": "Noël · Ruby Glass Bauble",
+      "kind": "bouncy",
+      "shell": "#b3122e",
+      "core": "#ffe2a8",
+      "transmission": 0.35,
+      "roughness": 0.08,
+      "iridescence": 0.35,
+      "thickness": 0.026,
+      "stem": "#c8a266",
+      "drizzle": "#e8c36a",
+      "endAt": "2026-12-26T00:00:00+09:00",
       "card": {
-        "shell": "민트 무광 왁스 + 초코 드리즐",
-        "core": "민트 점토 + 초코 칩 · 눌린 자국이 남음",
-        "crisp": 4
-      }
+        "shell": "루비 유광 파라핀 · 금빛 반짝이 · 황동 캡",
+        "core": "샴페인 골드 말랑이 · 탱탱하게 튀어 오름",
+        "crisp": 5
+      },
+      "sprinkles": [
+        "#f6d77c",
+        "#e8c36a",
+        "#fff1c2"
+      ]
     },
     {
-      "id": "sp-winter-berry",
-      "name": "겨울 베리 참 슬라임",
-      "sub": "Special · Winter Berry Charm",
+      "id": "sp-xmas-snowglobe",
+      "name": "스노글로브 슬라임",
+      "sub": "Noël · Snow Globe",
       "kind": "slime",
       "slime": "glitter",
-      "seeThru": 0.55,
-      "shell": "#c8324a",
-      "core": "#f6f1ff",
-      "transmission": 0.45,
-      "roughness": 0.15,
-      "thickness": 0.026,
+      "seeThru": 0.7,
+      "shell": "#dcecff",
+      "core": "#f4f9ff",
+      "transmission": 0.5,
+      "roughness": 0.1,
+      "thickness": 0.024,
       "glitter": [
         "#ffffff",
-        "#d9ecff",
-        "#ffd6e0"
+        "#e6f0ff",
+        "#f6d77c"
       ],
       "charms": [
-        "#ff5c7a",
+        "#f6c945",
+        "#d8213b",
         "#ffffff",
-        "#fff4dc",
-        "#8fd16a"
+        "#2f8f4e"
       ],
       "tune": {
-        "gravity": 3.6,
-        "rise": 5.5,
+        "gravity": 3.4,
+        "rise": 6,
+        "flow": 0.3,
         "engulf": 0.3
       },
+      "endAt": "2026-12-26T00:00:00+09:00",
       "card": {
-        "shell": "루비빛 유광 파라핀 · 속이 비쳐요",
-        "core": "눈꽃 글리터 슬라임 속 하트·별·진주 참",
+        "shell": "얼음빛 유리 파라핀 · 속이 다 비쳐요",
+        "core": "눈가루 글리터 슬라임 속 금별·빨간 하트·진주·초록 장식",
         "crisp": 3
       }
     },
     {
-      "id": "sp-yuzu",
-      "name": "말랑 유자",
-      "sub": "Special · Goheung Yuzu",
+      "id": "sp-xmas-bauble-green",
+      "name": "에메랄드 오너먼트",
+      "sub": "Noël · Emerald Glass Bauble",
       "kind": "bouncy",
-      "shell": "#f5c518",
-      "core": "#fff3c4",
+      "shell": "#0f6b45",
+      "core": "#f4f1e4",
       "transmission": 0.35,
-      "roughness": 0.35,
-      "matte": 0.3,
-      "powder": 0.15,
-      "thickness": 0.028,
-      "stem": "#6f8a3a",
+      "roughness": 0.08,
+      "iridescence": 0.35,
+      "thickness": 0.026,
+      "stem": "#c8a266",
+      "drizzle": "#f3ece0",
+      "endAt": "2026-12-26T00:00:00+09:00",
       "card": {
-        "shell": "유자색 반무광 왁스 · 꼭지 하나",
-        "core": "말랑이 · 탱탱하게 튀어 오름",
+        "shell": "에메랄드 유광 파라핀 · 눈빛 드리즐 · 황동 캡",
+        "core": "바닐라 말랑이 · 탱탱하게 튀어 오름",
+        "crisp": 5
+      }
+    },
+    {
+      "id": "sp-xmas-peppermint",
+      "name": "페퍼민트 캔디 점토",
+      "sub": "Noël · Peppermint Swirl",
+      "kind": "putty",
+      "shell": "#fbf7f2",
+      "core": "#fbefe6",
+      "transmission": 0.1,
+      "roughness": 0.3,
+      "matte": 0.3,
+      "thickness": 0.04,
+      "drizzle": "#d8213b",
+      "marble": [
+        "#fbefe6",
+        "#e8324a",
+        "#fbefe6",
+        "#9fd9b5"
+      ],
+      "endAt": "2026-12-26T00:00:00+09:00",
+      "card": {
+        "shell": "하얀 캔디 왁스 + 빨강·초록 캔디 칩",
+        "core": "빨강·하양·민트 마블 점토 · 늘어나요",
+        "crisp": 4
+      },
+      "sprinkles": [
+        "#d8213b",
+        "#d8213b",
+        "#2f8f4e",
+        "#ffffff"
+      ]
+    },
+    {
+      "id": "sp-xmas-gingerbread",
+      "name": "진저브레드 블록",
+      "sub": "Noël · Gingerbread Cookie",
+      "kind": "putty",
+      "shape": {
+        "kind": "block",
+        "hx": 1,
+        "hy": 0.42,
+        "hz": 0.55,
+        "r": 0.16
+      },
+      "shell": "#9a5a2c",
+      "core": "#e7b47c",
+      "transmission": 0.03,
+      "roughness": 0.55,
+      "matte": 0.8,
+      "thickness": 0.05,
+      "drizzle": "#fbf7f2",
+      "sprinkles": [
+        "#d8213b",
+        "#2f8f4e",
+        "#ffffff",
+        "#f6c945"
+      ],
+      "endAt": "2026-12-26T00:00:00+09:00",
+      "card": {
+        "shell": "계피색 무광 왁스 + 아이싱 + 컬러 스프링클",
+        "core": "생강 쿠키색 점토 · 묵직하게 눌림",
         "crisp": 4
       }
     }
-  ],
-  "updatedAt": "2026-11-25"
+  ]
 }
