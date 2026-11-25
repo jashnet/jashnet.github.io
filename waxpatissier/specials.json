@@ -6,27 +6,149 @@
     {
       "id": "sp-xmas-bauble-red",
       "name": "레드 오너먼트",
-      "sub": "Noël · Ruby Glass Bauble",
+      "sub": "Noël · Ruby Bauble",
       "kind": "bouncy",
       "shell": "#b3122e",
       "core": "#ffe2a8",
-      "transmission": 0.35,
+      "transmission": 0.3,
       "roughness": 0.08,
-      "iridescence": 0.35,
+      "iridescence": 0.25,
       "thickness": 0.026,
-      "stem": "#c8a266",
-      "drizzle": "#e8c36a",
+      "topper": "cap",
+      "bands": [
+        {
+          "y": 0.22,
+          "w": 0.06,
+          "color": "#e3bd5c",
+          "kind": "stripe"
+        },
+        {
+          "y": -0.22,
+          "w": 0.06,
+          "color": "#e3bd5c",
+          "kind": "stripe"
+        },
+        {
+          "y": 0,
+          "w": 0.05,
+          "color": "#e3bd5c",
+          "kind": "plain"
+        }
+      ],
+      "minAppVersion": "1.0.3",
       "endAt": "2026-12-26T00:00:00+09:00",
       "card": {
-        "shell": "루비 유광 파라핀 · 금빛 반짝이 · 황동 캡",
+        "shell": "루비 유광 파라핀 · 금 줄무늬 · 황동 캡",
         "core": "샴페인 골드 말랑이 · 탱탱하게 튀어 오름",
         "crisp": 5
-      },
-      "sprinkles": [
-        "#f6d77c",
-        "#e8c36a",
-        "#fff1c2"
-      ]
+      }
+    },
+    {
+      "id": "sp-xmas-santa",
+      "name": "산타 말랑",
+      "sub": "Noël · Santa Belly",
+      "kind": "malang",
+      "shell": "#c8102e",
+      "core": "#fff6ee",
+      "transmission": 0.25,
+      "roughness": 0.3,
+      "matte": 0.3,
+      "thickness": 0.03,
+      "topper": [
+        "pompom",
+        "eyes"
+      ],
+      "bands": [
+        {
+          "y": 0.55,
+          "w": 0.1,
+          "color": "#fbf8f2",
+          "kind": "fur"
+        },
+        {
+          "y": -0.18,
+          "w": 0.075,
+          "color": "#1b1514",
+          "kind": "belt"
+        },
+        {
+          "y": -0.78,
+          "w": 0.08,
+          "color": "#fbf8f2",
+          "kind": "fur"
+        }
+      ],
+      "minAppVersion": "1.0.3",
+      "endAt": "2026-12-26T00:00:00+09:00",
+      "card": {
+        "shell": "산타 레드 왁스 · 하얀 털 장식 · 검은 벨트와 금 버클",
+        "core": "우유빛 말랑이 · 천천히 부풀어 오름",
+        "crisp": 4
+      }
+    },
+    {
+      "id": "sp-xmas-bauble-green",
+      "name": "에메랄드 오너먼트",
+      "sub": "Noël · Emerald Bauble",
+      "kind": "bouncy",
+      "shell": "#0f6b47",
+      "core": "#fff4d6",
+      "transmission": 0.3,
+      "roughness": 0.08,
+      "iridescence": 0.25,
+      "thickness": 0.026,
+      "topper": "cap",
+      "bands": [
+        {
+          "y": 0.3,
+          "w": 0.04,
+          "color": "#e3bd5c",
+          "kind": "plain"
+        },
+        {
+          "y": -0.3,
+          "w": 0.04,
+          "color": "#e3bd5c",
+          "kind": "plain"
+        },
+        {
+          "y": 0,
+          "w": 0.1,
+          "color": "#e3bd5c",
+          "kind": "stripe"
+        }
+      ],
+      "minAppVersion": "1.0.3",
+      "endAt": "2026-12-26T00:00:00+09:00",
+      "card": {
+        "shell": "에메랄드 유광 파라핀 · 금 줄무늬 · 황동 캡",
+        "core": "바닐라 말랑이 · 탱탱하게 튀어 오름",
+        "crisp": 5
+      }
+    },
+    {
+      "id": "sp-xmas-rudolph",
+      "name": "루돌프 말랑",
+      "sub": "Noël · Rudolph",
+      "kind": "bouncy",
+      "shell": "#7b4a2e",
+      "core": "#f3dcc0",
+      "transmission": 0.2,
+      "roughness": 0.35,
+      "matte": 0.4,
+      "thickness": 0.028,
+      "topper": [
+        "nose",
+        "antlers",
+        "eyes"
+      ],
+      "minAppVersion": "1.0.3",
+      "endAt": "2026-12-26T00:00:00+09:00",
+      "card": {
+        "shell": "코코아 반무광 왁스 · 빨간 코와 뿔",
+        "core": "밀크티 말랑이 · 탱탱하게 튀어 오름",
+        "crisp": 4
+      }
     },
     {
       "id": "sp-xmas-snowglobe",
@@ -34,7 +156,7 @@
       "sub": "Noël · Snow Globe",
       "kind": "slime",
       "slime": "glitter",
-      "seeThru": 0.7,
+      "seeThru": 0.65,
       "shell": "#dcecff",
       "core": "#f4f9ff",
       "transmission": 0.5,
@@ -46,74 +168,25 @@
         "#f6d77c"
       ],
       "charms": [
-        "#f6c945",
         "#d8213b",
-        "#ffffff",
-        "#2f8f4e"
+        "#2f8f4e",
+        "#f6c945",
+        "#ffffff"
       ],
+      "charmSet": "xmas",
       "tune": {
         "gravity": 3.4,
         "rise": 6,
         "flow": 0.3,
         "engulf": 0.3
       },
+      "minAppVersion": "1.0.3",
       "endAt": "2026-12-26T00:00:00+09:00",
       "card": {
         "shell": "얼음빛 유리 파라핀 · 속이 다 비쳐요",
-        "core": "눈가루 글리터 슬라임 속 금별·빨간 하트·진주·초록 장식",
+        "core": "눈가루 글리터 슬라임 속 트리·눈꽃·지팡이 캔디·선물상자",
         "crisp": 3
       }
-    },
-    {
-      "id": "sp-xmas-bauble-green",
-      "name": "에메랄드 오너먼트",
-      "sub": "Noël · Emerald Glass Bauble",
-      "kind": "bouncy",
-      "shell": "#0f6b45",
-      "core": "#f4f1e4",
-      "transmission": 0.35,
-      "roughness": 0.08,
-      "iridescence": 0.35,
-      "thickness": 0.026,
-      "stem": "#c8a266",
-      "drizzle": "#f3ece0",
-      "endAt": "2026-12-26T00:00:00+09:00",
-      "card": {
-        "shell": "에메랄드 유광 파라핀 · 눈빛 드리즐 · 황동 캡",
-        "core": "바닐라 말랑이 · 탱탱하게 튀어 오름",
-        "crisp": 5
-      }
-    },
-    {
-      "id": "sp-xmas-peppermint",
-      "name": "페퍼민트 캔디 점토",
-      "sub": "Noël · Peppermint Swirl",
-      "kind": "putty",
-      "shell": "#fbf7f2",
-      "core": "#fbefe6",
-      "transmission": 0.1,
-      "roughness": 0.3,
-      "matte": 0.3,
-      "thickness": 0.04,
-      "drizzle": "#d8213b",
-      "marble": [
-        "#fbefe6",
-        "#e8324a",
-        "#fbefe6",
-        "#9fd9b5"
-      ],
-      "endAt": "2026-12-26T00:00:00+09:00",
-      "card": {
-        "shell": "하얀 캔디 왁스 + 빨강·초록 캔디 칩",
-        "core": "빨강·하양·민트 마블 점토 · 늘어나요",
-        "crisp": 4
-      },
-      "sprinkles": [
-        "#d8213b",
-        "#d8213b",
-        "#2f8f4e",
-        "#ffffff"
-      ]
     },
     {
       "id": "sp-xmas-gingerbread",
