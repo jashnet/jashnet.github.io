@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theme": "xmas",
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "items": [
     {
       "id": "sp-xmas-bauble-red",
@@ -40,7 +40,32 @@
       "card": {
         "shell": "루비 유광 파라핀 · 금 줄무늬 · 황동 캡",
         "core": "샴페인 골드 말랑이 · 탱탱하게 튀어 오름",
-        "crisp": 5
+        "crisp": 5,
+        "i18n": {
+          "en": {
+            "shell": "Glossy ruby paraffin · gold stripes · brass cap",
+            "core": "Champagne-gold bouncy core · springs right back"
+          },
+          "ja": {
+            "shell": "つやつやルビーのパラフィン · 金のストライプ · 真鍮キャップ",
+            "core": "シャンパンゴールドのぷるぷるコア · すぐに弾んで戻る"
+          },
+          "zh-Hant": {
+            "shell": "亮面紅寶石石蠟 · 金色條紋 · 黃銅吊蓋",
+            "core": "香檳金Q彈內芯 · 一壓就彈回"
+          }
+        }
+      },
+      "i18n": {
+        "en": {
+          "name": "Ruby Bauble"
+        },
+        "ja": {
+          "name": "ルビーオーナメント"
+        },
+        "zh-Hant": {
+          "name": "紅寶石聖誕球"
+        }
       }
     },
     {
@@ -83,7 +108,32 @@
       "card": {
         "shell": "산타 레드 왁스 · 하얀 털 장식 · 검은 벨트와 금 버클",
         "core": "우유빛 말랑이 · 천천히 부풀어 오름",
-        "crisp": 4
+        "crisp": 4,
+        "i18n": {
+          "en": {
+            "shell": "Santa-red wax · white fur trim · black belt, gold buckle",
+            "core": "Milky squishy core · rises back slowly"
+          },
+          "ja": {
+            "shell": "サンタレッドのワックス · 白いファー · 黒ベルトに金のバックル",
+            "core": "ミルク色のもちもちコア · ゆっくり膨らんで戻る"
+          },
+          "zh-Hant": {
+            "shell": "聖誕紅蠟殼 · 白色毛邊 · 黑腰帶配金扣",
+            "core": "乳白Q軟內芯 · 慢慢回彈"
+          }
+        }
+      },
+      "i18n": {
+        "en": {
+          "name": "Squishy Santa"
+        },
+        "ja": {
+          "name": "もちもちサンタ"
+        },
+        "zh-Hant": {
+          "name": "Q軟聖誕老人"
+        }
       }
     },
     {
@@ -123,7 +173,32 @@
       "card": {
         "shell": "에메랄드 유광 파라핀 · 금 줄무늬 · 황동 캡",
         "core": "바닐라 말랑이 · 탱탱하게 튀어 오름",
-        "crisp": 5
+        "crisp": 5,
+        "i18n": {
+          "en": {
+            "shell": "Glossy emerald paraffin · gold stripes · brass cap",
+            "core": "Vanilla bouncy core · springs right back"
+          },
+          "ja": {
+            "shell": "つやつやエメラルドのパラフィン · 金のストライプ · 真鍮キャップ",
+            "core": "バニラのぷるぷるコア · すぐに弾んで戻る"
+          },
+          "zh-Hant": {
+            "shell": "亮面祖母綠石蠟 · 金色條紋 · 黃銅吊蓋",
+            "core": "香草Q彈內芯 · 一壓就彈回"
+          }
+        }
+      },
+      "i18n": {
+        "en": {
+          "name": "Emerald Bauble"
+        },
+        "ja": {
+          "name": "エメラルドオーナメント"
+        },
+        "zh-Hant": {
+          "name": "祖母綠聖誕球"
+        }
       }
     },
     {
@@ -147,7 +222,32 @@
       "card": {
         "shell": "코코아 반무광 왁스 · 빨간 코와 뿔",
         "core": "밀크티 말랑이 · 탱탱하게 튀어 오름",
-        "crisp": 4
+        "crisp": 4,
+        "i18n": {
+          "en": {
+            "shell": "Satin cocoa wax · red nose and antlers",
+            "core": "Milk-tea bouncy core · springs right back"
+          },
+          "ja": {
+            "shell": "ココア色の半マットワックス · 赤い鼻と角",
+            "core": "ミルクティーのぷるぷるコア · すぐに弾んで戻る"
+          },
+          "zh-Hant": {
+            "shell": "可可色半霧面蠟殼 · 紅鼻子和鹿角",
+            "core": "奶茶Q彈內芯 · 一壓就彈回"
+          }
+        }
+      },
+      "i18n": {
+        "en": {
+          "name": "Bouncy Rudolph"
+        },
+        "ja": {
+          "name": "ぷるぷるルドルフ"
+        },
+        "zh-Hant": {
+          "name": "Q彈魯道夫"
+        }
       }
     },
     {
@@ -185,7 +285,32 @@
       "card": {
         "shell": "얼음빛 유리 파라핀 · 속이 다 비쳐요",
         "core": "눈가루 글리터 슬라임 속 트리·눈꽃·지팡이 캔디·선물상자",
-        "crisp": 3
+        "crisp": 3,
+        "i18n": {
+          "en": {
+            "shell": "Ice-clear glassy paraffin · see right through",
+            "core": "Snow-glitter slime: trees, snowflakes, candy canes, gifts"
+          },
+          "ja": {
+            "shell": "氷のように透明なパラフィン · 中まで見える",
+            "core": "雪のグリッタースライムにツリー・雪の結晶・キャンディケイン・プレゼント"
+          },
+          "zh-Hant": {
+            "shell": "冰透玻璃石蠟 · 一眼看穿",
+            "core": "雪花亮粉史萊姆裡有聖誕樹、雪花、拐杖糖、禮物盒"
+          }
+        }
+      },
+      "i18n": {
+        "en": {
+          "name": "Snow Globe Slime"
+        },
+        "ja": {
+          "name": "スノードームスライム"
+        },
+        "zh-Hant": {
+          "name": "雪花球史萊姆"
+        }
       }
     },
     {
@@ -217,7 +342,32 @@
       "card": {
         "shell": "계피색 무광 왁스 + 아이싱 + 컬러 스프링클",
         "core": "생강 쿠키색 점토 · 묵직하게 눌림",
-        "crisp": 4
+        "crisp": 4,
+        "i18n": {
+          "en": {
+            "shell": "Matte cinnamon wax · icing · colour sprinkles",
+            "core": "Ginger-cookie clay · presses in heavy"
+          },
+          "ja": {
+            "shell": "マットなシナモン色ワックス · アイシング · カラースプリンクル",
+            "core": "ジンジャークッキー色の粘土 · ずっしり沈む"
+          },
+          "zh-Hant": {
+            "shell": "霧面肉桂色蠟殼 · 糖霜 · 彩色糖粒",
+            "core": "薑餅色黏土 · 沉沉地壓下去"
+          }
+        }
+      },
+      "i18n": {
+        "en": {
+          "name": "Gingerbread Block"
+        },
+        "ja": {
+          "name": "ジンジャーブレッドブロック"
+        },
+        "zh-Hant": {
+          "name": "薑餅磚"
+        }
       }
     }
   ]
